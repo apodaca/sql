@@ -1,3 +1,17 @@
-SELECT *
+SELECT DISTINCT *
 FROM [tableName]
 WHERE
+ORDER BY
+
+SELECT *
+FROM film
+WHERE rental_rate > 4 AND replacement_cost >= 19.99 AND (rating = 'R' OR rating ='NC-17')
+
+SELECT *
+FROM payment
+WHERE staff_id = 1 AND amount > 1
+
+ORDER BY payment_date DESC 
+
+Limit 5
+
